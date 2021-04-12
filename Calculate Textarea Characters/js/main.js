@@ -11,3 +11,21 @@ var _count = document.getElementById("count"),
             _count.classList.remove("zero")
         }
     };
+
+    _textarea.onfocus = function() {
+
+        // store Placeholder Attr In Backup Attr
+        this.setAttribute("data-text",this.getAttribute("placeholder"));
+
+        //Empty Placeholder Attribute
+        this.setAttribute("placeholder"," ");
+    }
+    
+    _textarea.onblur = function() {
+
+        //Get Placeholder Attr From Backup Attribute
+        this.setAttribute("placeholder", this.getAttribute("data-text"));
+
+        //Empty Backup Attribute
+        this.setAttribute("data-text", " ");
+    }
