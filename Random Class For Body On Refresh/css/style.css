@@ -1,37 +1,35 @@
-.background-one{
-  background-image: url("../css/img/back1.jpg");
+.background-one {
+  background-image: url('../img/back1.jpg');
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
 }
-.background-two{
-  background-image: url("../css/img/back2.jpg");
+.background-two {
+  background-image: url('../img/back2.jpg');
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
 }
-.background-three{
-  background-image: url("../css/img/back3.png");
+.background-three {
+  background-image: url('../img/back3.png');
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
 }
-.background-four{
-  background-image: url("../css/img/back4.jpg");
+.background-four {
+  background-image: url('../img/back4.jpg');
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
 }
-.background-five{
-  background-image: url("../css/img/back5.jpg");
+.background-five {
+  background-image: url('../img/back5.jpg');
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
 }
 
-
-
-.wrapper{
+.wrapper {
   display: flex;
   flex-flow: row wrap;
   text-align: center;
@@ -40,55 +38,54 @@
 .wrapper > * {
   padding: 10px;
   margin: 10px;
-  flex:1 100% ;
-  border-radius:10px;
+  flex: 1 100%;
+  border-radius: 10px;
 }
 
-.header{
-  background: tomato;
+.header {
+  background: #ff634796;
   height: 120px;
 }
 
-.footer{
-  background: lightgreen;
+.footer {
+  background: #90ee909e;
   height: 80px;
   font-size: 30px;
 }
-.main{
+.main {
   text-align: left;
-  background: deepskyblue;
+  background: #00bfffb3;
   height: 300px;
   font-size: 24px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
-.aside1{
-  background-color: gold;
+.aside1 {
+  background-color: #ffd7008a;
 }
-.aside2{
-  background-color: hotpink;
+.aside2 {
+  background-color: #ff69b48c;
 }
-@media all and (min-width: 800px){
-  .main{
-    flex:3;
+@media all and (min-width: 800px) {
+  .main {
+    flex: 3;
   }
 
-
-  .aside1{
+  .aside1 {
     order: 1;
   }
-  .aside2{
+  .aside2 {
     order: 2;
   }
-  .main{
+  .main {
     order: 2;
   }
-  .footer{
+  .footer {
     order: 4;
   }
 }
-@media all and (min-width : 600px){
-  .aside{
-    flex:1;
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1;
   }
 }
