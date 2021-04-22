@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: rgba(211, 209, 209, 0.459);
+    width: 700px;
+    height: 300px;
+    display: flex;
+}
+
+.writer{
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid rgb(143, 136, 136);
+    border-radius: 8px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+
+}
+
+.firstName{
+    display: block;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    border:none
+}
+.lastName{
+    display: block;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    border:none
+}
+.email{
+    display: block;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    border:none
+}
+.tele{
+    display: block;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    border:none
+}
+
+
+.display{
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid rgb(143, 136, 136);
+    border-radius: 8px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+}
+
+.firstN{
+    
+}
+.lastN{
+
+}
+.mail{
+
+}
+.phon{
+
+}
