@@ -1,0 +1,31 @@
+.back-one {
+  background-image: url('../img/back1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.back-two {
+  background-image: url('../img/back2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.back-three {
+  background-image: url('../img/back3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.back-four {
+  background-image: url('../img/back4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.back-five {
+  background-image: url('../img/back5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
